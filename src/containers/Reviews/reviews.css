@@ -1,0 +1,71 @@
+.page-reviews {
+  padding: 16px;
+}
+
+.reviews-form-container {
+  margin-top: 22px;
+}
+
+.reviews-form-header {
+  display: flex;
+  align-items: flex-end;
+}
+
+.reviews-form-header h2 {
+  margin-bottom: 18px;
+  margin-left: 12px;
+  margin-top: 0;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.form-suggestion {
+  position: relative;
+  top: -18px;
+  margin-left: 16px;
+  padding: 8px;
+  border-radius: 6px !important;
+}
+
+.form-suggestion svg {
+  width: 52px !important;
+  height: 52px !important;
+  color: #FFFFFF !important;
+}
+
+.reviews-form {
+  padding: 16px;
+  padding-top: 0;
+}
+
+.rating-container {
+  margin-left: -12px;
+}
+
+.quote {
+  margin-top: 12px;
+}
+
+.quote svg {
+  color: rgba(0,0,0,0.54) !important;
+}
+
+.author {
+  color: rgba(0,0,0,0.4);
+  font-weight: 300;
+  margin: 0;
+}
+
+.pagination * {
+  color: rgba(0, 0, 0, 0.54) !important;
+}
+
+.pagination p {
+  margin: 0;
+  line-height: 48px;
+}
+
+.pagination-select {
+  margin: 0 12px;
+  width: 54px !important;
+}

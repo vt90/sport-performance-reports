@@ -1,0 +1,8 @@
+.LegendBullet {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 7px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
+  min-width: 14px;
+}
+
+* {
+  white-space: normal !important;
+}

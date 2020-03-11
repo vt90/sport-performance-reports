@@ -1,0 +1,24 @@
+.Action-stats-item {
+  margin: 8px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Action-stats-item h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 14px;
+  opacity: 0.87;
+}
+
+.Action-stats-item p {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.Action-stats-border {
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}

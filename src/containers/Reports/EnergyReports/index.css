@@ -1,0 +1,8 @@
+.Energy-Reports table {
+  background: rgba(0,0,0,0) !important;
+}
+
+.Energy-Reports table td {
+  color: #FFFFFF !important;
+  font-size: 16px !important;
+}

@@ -1,0 +1,31 @@
+.ReportsSearchHeader {
+  color: #FFFFFF;
+  min-width: 100%;
+}
+
+.ReportsSearchHeader p {
+  opacity: 0.8;
+  margin: 0;
+}
+
+/*.ReportsSearchHeader .row > div {*/
+  /*height: 65px !important;*/
+/*}*/
+
+.ReportsSearchHeader .row * {
+  cursor: pointer !important;
+}
+
+.ReportsSearchHeader label {
+  color: #FFFFFF !important;
+}
+
+.ReportsDatePicker div,
+.ReportsActivityPicker {
+  width: 100% !important;
+  max-width: 100%;
+}
+
+.ReportsActivityPicker div {
+  color: rgba(255,255,255,0.8) !important;
+}

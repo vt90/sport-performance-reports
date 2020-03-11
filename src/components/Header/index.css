@@ -1,0 +1,83 @@
+.App-header {
+  align-items: center;
+  background-color: #FFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 30px, rgba(0, 0, 0, 0.23) 0px 6px 10px;
+  display: flex;
+  left:0;
+  max-width: 100%;
+  padding: 0 16px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 1000;
+}
+
+.App-header img {
+  width: 64px;
+  height: 64px;
+}
+
+.App-header h2 {
+  font-size: 12px;
+  width: 40px;
+}
+
+.App-header a {
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.App-header a button {
+  min-width: 0 !important;
+  padding: 0 12px !important;
+}
+
+.App-header a button div {
+  display: flex;
+  align-items: center;
+}
+
+.App-header a button span {
+  display: block;
+  margin-left: 3px;
+}
+
+.App-header a * {
+  color: rgba(0,0,0,0.74) !important;
+}
+
+.Fill-flex {
+  flex: 1;
+}
+
+.enter-any-code {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  width: 100px;
+  max-width: calc(100vw - 80px);
+  background: #FFFFFF;
+  padding: 12px 20px;
+  font-weight: 800 !important;
+  text-align: center;
+  box-shadow: 0 4px 20px 4px rgba(200,220,255,.1), 0 4px 80px -8px rgba(200,220,255,.2)
+}
+
+.enter-any-code * {
+  font-weight: 800 !important;
+}
+
+@media screen and (min-width: 600px) {
+  .drawer,
+  .menu-button {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+
+

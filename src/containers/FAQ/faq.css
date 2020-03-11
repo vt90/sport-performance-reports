@@ -1,0 +1,9 @@
+.faq-page p {
+  font-weight: 300;
+}
+
+.faq-page a {
+  color: rgba(0,0,0,0.74);
+  text-decoration: none;
+  font-weight: 700;
+}

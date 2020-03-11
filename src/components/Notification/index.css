@@ -1,0 +1,32 @@
+/*.Notification {*/
+  /*bottom: 6px !important;*/
+/*}*/
+
+.Notification > div {
+  height: unset !important;
+}
+
+.Notification p {
+  margin: 3px;
+}
+
+.Notification-Icon {
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+@media screen and (min-width: 768px) {
+  .Notification {
+    bottom: 6px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Notification > div {
+    width: calc(100vw - 68px) !important;
+  }
+}
+
+.NotificationContainer {
+
+}

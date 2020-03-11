@@ -1,0 +1,53 @@
+.ReportsHeader {
+  background: linear-gradient(160deg, rgb(66, 66, 66), rgb(11, 11, 11));
+  padding: 20px 20px 80px 20px;
+  color: rgba(255,255,255,0.8) !important;
+  box-sizing: border-box;
+  min-width: 100%;
+}
+
+.ReportsHeader > div {
+  flex: 1 !important;
+}
+
+.Loading-Container {
+  min-height: 100%;
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+@media screen and (min-width: 768px) {
+  .ActivityCount {
+    height: 100%;
+  }
+}
+
+.PieChartPaper {
+  margin-top: -26px;
+  margin-bottom: 30px;
+  padding: 6px;
+}
+
+.ActivityCount p {
+  opacity: 0.8;
+}
+
+.DurationStats {
+  background: linear-gradient(60deg, rgb(236, 64, 122), rgb(216, 27, 96));
+}
+
+.SessionTimes {
+  background: linear-gradient(60deg, rgb(38, 198, 218), rgb(0, 172, 193));
+}
+
+.Energy-Reports {
+  background: linear-gradient(60deg,#ffa726,#fb8c00);
+  margin-bottom: 20px;
+}
+
+.DurationStats p,
+.Energy-Reports p,
+.SessionTimes p {
+  color: #FFFFFF;
+}

@@ -1,0 +1,119 @@
+#calendar {
+  width: 640px;
+  height: 480px;
+  margin: 100px auto;
+}
+
+.Calendar-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding:8px 0;
+}
+
+.Calendar-header {
+  height: 50px;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+}
+
+.Calendar-header button {
+  width: 50px;
+  font-size: 20px;
+  border: 0;
+  background: transparent;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.Calendar-grid-item {
+  flex: 0 13%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Calendar-grid-item--current {
+  font-weight: 700;
+}
+
+.Calendar-grid-item.nextMonth,
+.Calendar-grid-item.prevMonth {
+  color: rgba(0,0,0,0);
+  cursor: auto;
+}
+
+.Calendar-day {
+  width: 26px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 50%;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Calendar-count-badge {
+  position: absolute;
+  top: -6px;
+  right: -7px;
+  font-size: 12px;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 2px rgba(0,0,0,0.5);
+  width: 16px;
+  text-align: center;
+  height: 16px;
+  line-height: 16px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 7px, rgba(0, 0, 0, 0.23) 0px 2px 6px;
+  opacity: 0.02;
+  z-index: -1;
+}
+.Calendar-day:hover .Calendar-count-badge {
+  z-index: 7;
+  opacity: 1;
+}
+
+.Calendar-toolbar {
+  background: linear-gradient(60deg, rgb(38, 198, 218), rgb(0, 172, 193));
+}
+
+.Calendar-toolbar-group {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.Calendar-toolbar-title {
+  margin-top: 0;
+  color: #FFFFFF;
+}
+
+.Calendar-toolbar-subtitle {
+  color: rgba(255,255,255, 0.6);
+}
+
+.Calendar-day-title {
+  opacity: 0.34;
+}
+
+.Days-grid {
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+
+
+.Calendar-title {
+  font-weight: 400;
+  opacity: 0.5;
+  margin: 10px 0;
+}
